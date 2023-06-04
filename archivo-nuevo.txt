@@ -1,1 +1,3 @@
 Esto es un archivo nuevo
+
+Cambios para el Stash
