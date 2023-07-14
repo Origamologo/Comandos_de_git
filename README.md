@@ -20,8 +20,11 @@
 ### 1.-PRINCIPALES RAMAS EN GIT
 
 -Master: código publicado en producción
+
 -Development: donde se integra la nueva funcionalidad y se prueba antes de pasar a master. Esta rama se crea a partir de la Master
+
 -Features: contienen una funcionalidad. Se crean a partir de Development para integrarse con ella al terminar el desarrollo
+
 -Hotfix: para corregir errores en producción. Se crean desde la rama Master para integrarse de nuevo en Master y en Development
 
 
