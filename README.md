@@ -192,21 +192,33 @@ $ git push origin --delete <nombre_rama_eliminar>
 ### 14.-CÓMO UNIR DOS RAMAS EN UNA CON merge
 
 1.-Puede ser que git una las dos ramas sin ningún tipo de conflicto, mezclando el contenido de los archivos. Esto se llama Fast-forward:
+
 	1.0.-Añadimos y commiteamos todos los cambios en las ramas que vamos a mergear
+ 
 	1.1.-Nos vamos a la rama de destino
+ 
 	1.2.-Mergeamos la rama que nos interesa con la que estamos situados
+ 
 	$ git merge <nombre_rama_a_mergear>
 	
 2.-Puede que tenga que mezclar dos versiones distintas del mismo archivo, por lo que nos pedirá que hagamos un commit:
+
 	2.0.-Añadimos y commiteamos todos los cambios en las ramas que vamos a mergear
+ 
 	2.1.-Nos vamos a la rama de destino
+ 
 	2.2.-Mergeamos la rama que nos interesa con la que estamos situados
+ 
 	2.3.-Da error, así que abrimos el archivo conflictivo en un editor de texto y encontraremos resaltados y marcados los cambios que no puede mergear. Los cambiamos a mano, añadimos los cambios y commiteamos.
 	
 3.-Puede que git pueda hacer el merge automáticamente pero nos pida commitear antes los cambios:
+
 	3.0.-Añadimos y commiteamos todos los cambios en las ramas que vamos a mergear
+ 
 	3.1.-Nos vamos a la rama de destino
+ 
 	3.2.-Mergeamos la rama que nos interesa con la que estamos situados
+ 
 	3.3.-Nos aparece un mensaje pidiéndonos que commiteemos los cambios para completar el merge. Guardamos y cerramos el editor donde nos sale el mensaje y listo.
 	
 	
