@@ -247,6 +247,7 @@ $ git push --tags
 $ git init
 
 2.-Creamos un archivo, añadimos al stage y commiteamos para que nos aparezca la rama master (o main)
+
 3.-Vamos a github y creamos un nuevo repositorio
 4.-Volvemos a la terminal para conectar los repos
 $ git remote add origin <url_del_repo>
