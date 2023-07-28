@@ -1,6 +1,6 @@
-# Apuntes de git
+# :octocat: Apuntes de git :octocat:
 <br>
-:octocat: Resumen de los comandos más importantes de git :octocat:
+Resumen de los comandos más importantes de git
 
 #
 ## 1.-PRINCIPALES RAMAS EN GIT
@@ -232,9 +232,11 @@ De este modo sólo borramos las ramas en local. Para borrarlas también en remot
 	3.2.-Mergeamos la rama que nos interesa con la que estamos situados
  
 	3.3.-Nos aparece un mensaje pidiéndonos que commiteemos los cambios para completar el merge. Guardamos y cerramos el editor donde nos sale el mensaje y listo.
+ 
 <br>
 
 #
+
 ### 15.-CREAR ETIQUETAS: TAGS
 
 Conforme vamos creando nuevas funciones y las vamos integrando en la rama develop, iremos creando versiones de nuestra aplicación y esto lo hacemos con los tags.\
