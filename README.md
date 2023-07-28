@@ -1,6 +1,9 @@
 # :octocat: Comandos de git :octocat:
-<br>
+
 Resumen de los comandos más importantes de git
+<br>
+
+![Alt Text](https://github.com/Origamologo/Comandos_de_git/blob/main/git.gif)
 
 #
 ## 1.-PRINCIPALES RAMAS EN GIT
