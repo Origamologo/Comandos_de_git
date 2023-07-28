@@ -1,4 +1,4 @@
-# :octocat: Apuntes de git :octocat:
+# :octocat: Comandos de git :octocat:
 <br>
 Resumen de los comandos más importantes de git
 
